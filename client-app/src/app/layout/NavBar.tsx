@@ -16,17 +16,6 @@ export default function NavBar({openForm}: Props) {
                 <Menu.Item>
                     <Button onClick={openForm} positive content='Create activity' />
                 </Menu.Item>
-                <Menu.Item footer>
-                    <Dropdown text="abc">
-                        <DropdownMenu>
-                            <DropdownItem text='DELETE ALL' />
-                            <DropdownItem text='abc' />
-                            <DropdownItem text='abc' />
-                            <DropdownItem text='abc' />
-                            <DropdownItem text='abc' />
-                        </DropdownMenu>
-                    </Dropdown>
-                </Menu.Item>
             </Container>
         </Menu>
     )
